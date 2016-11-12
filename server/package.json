@@ -1,0 +1,19 @@
+{
+  "name": "skiyubon",
+  "version": "1.0.0",
+  "description": "node.js 测试模块",
+  "main": "server.js",
+  "scripts": {
+    "test": "make test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://skiybon.github.io"
+  },
+  "keywords": [
+    "wfe670820"
+  ],
+  "author": "skiyubon",
+  "license": "ISC"
+}
