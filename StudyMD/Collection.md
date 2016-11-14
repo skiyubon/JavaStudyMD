@@ -350,4 +350,21 @@
 		for(Person p : a) {
 			syso(p);
 		}
-	}                    
+	}  
+
+##19.Collections工具类.
+
+
+- 构造方法私有
+
+
+
+- 常见方法
+- 
+		public static <T> void sort(List<T> list)  			//排序
+		public static <T> int binarySearch(List<T> list,T)  //二分查找
+		public static <T> T max(List<T> list>				//取最大值
+		public static void revers(List<?> list)				//翻转
+		public static void shufflie(List<?> list)			//随机置换
+
+		Collection.synchronizedList(List<T> list)			//线程转安        
