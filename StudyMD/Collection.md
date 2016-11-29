@@ -352,11 +352,11 @@
 		}
 	}  
 
+
 ##19.Collections工具类.
 
 
 - 构造方法私有
-
 
 
 - 常见方法
@@ -367,4 +367,13 @@
 		public static void revers(List<?> list)				//翻转
 		public static void shufflie(List<?> list)			//随机置换
 
-		Collection.synchronizedList(List<T> list)			//线程转安        
+		Collection.synchronizedList(List<T> list)			//线程转安
+
+
+
+##20.泛型的高级
+- <? extends E> E或者E的子类
+- <? super E> E或者E的父类
+		
+		
+       
